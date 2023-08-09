@@ -41,6 +41,12 @@ export default function Rules() {
           Se acertar vocề vai ser enviado para uma página de sucesso, se errar,
           vai ser enviado para uma página de fracasso, terminando assim o jogo.
         </Paragraph>
+
+        <Paragraph style={{ marginBottom: 20 }}>
+          <NumberParagraph>3 - </NumberParagraph>
+          Se acertar vocề vai ser enviado para uma página de sucesso, se errar,
+          vai ser enviado para uma página de fracasso, terminando assim o jogo.
+        </Paragraph>
     </ScrollTextRules>
 
   </Container>
