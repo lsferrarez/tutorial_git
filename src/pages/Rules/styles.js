@@ -29,7 +29,7 @@ export const Title = styled.Text`
 `;
 
 export const Paragraph = styled.Text`
-  font-size: ${RFValue(18)}px;
+  font-size: ${RFValue(20)}px;
   font-family: sans-serif;
   margin-left: ${RFValue(10)}px;
   margin-top: ${RFValue(15)}px;
@@ -37,5 +37,6 @@ export const Paragraph = styled.Text`
 `;
 
 export const NumberParagraph = styled.Text`
-  font-weight: bold;
+  font-weight: black;
+  
 `;

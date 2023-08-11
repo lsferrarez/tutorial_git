@@ -1,10 +1,15 @@
 import React from "react";
 import { Container, Icon, NumberParagraph, Paragraph, ScrollTextRules, Title } from "./styles";
+import { Alert } from "react-native";
 
 export default function Rules() {
+  function handleNavToStart() {
+    Alert.alert("titulo clicado");
+  }
+
   return (  
   <Container>
-    <Icon name="arrow-back-ios"/>
+    <Icon name="arrow-back-ios" onPress={handleNavToStart}/>
 
     <ScrollTextRules>
       <Title>Jogando Solo</Title>
@@ -42,11 +47,7 @@ export default function Rules() {
           vai ser enviado para uma página de fracasso, terminando assim o jogo.
         </Paragraph>
 
-        <Paragraph style={{ marginBottom: 20 }}>
-          <NumberParagraph>3 - </NumberParagraph>
-          Se acertar vocề vai ser enviado para uma página de sucesso, se errar,
-          vai ser enviado para uma página de fracasso, terminando assim o jogo.
-        </Paragraph>
+       
     </ScrollTextRules>
 
   </Container>
